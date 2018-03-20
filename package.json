@@ -1,0 +1,26 @@
+{
+  "name": "smart-contract-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CHristopherkeith/smart-contract-tutorial.git"
+  },
+  "keywords": [
+    "truffle",
+    "test"
+  ],
+  "author": "Christopher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CHristopherkeith/smart-contract-tutorial/issues"
+  },
+  "homepage": "https://github.com/CHristopherkeith/smart-contract-tutorial#readme"
+}

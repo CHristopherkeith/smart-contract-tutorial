@@ -1,11 +1,4 @@
-var Web3 = require('web3');
-var contract = require("truffle-contract");
-
-var provider = new Web3.providers.HttpProvider("http://localhost:8545");
-
-//使用truffle-contract包的contract()方法
-//请务必使用你自己编译的.json文件内容
-var Test = contract({
+{
   "contractName": "Test",
   "abi": [
     {
@@ -470,40 +463,25 @@ var Test = contract({
     "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
   },
   "networks": {
-    "1521972264934": {
+    "1521977722292": {
       "events": {},
       "links": {},
-      "address": "0x81982eab285f011c0415da75748fe7e4d6760d61",
+      "address": "0xe8875efd0eb1442bb6edb839eec71e2c8fed9efc",
       "transactionHash": "0x5ac604496c04a455558bf1df9dc902dfad3b293a0b132cb49adf9db96702087f"
+    },
+    "1521978577430": {
+      "events": {},
+      "links": {},
+      "address": "0x9562eb25e9287a32398b103b20c30761ec4c44e0",
+      "transactionHash": "0xf84881a2a28f702c0ea582e8a63367e3fca350d9695ec47cc55c9fb1a9c5d1fd"
+    },
+    "1521978762562": {
+      "events": {},
+      "links": {},
+      "address": "0x5b32f70d930cb59ead990ad053bd2ab235d5bd73",
+      "transactionHash": "0xf84881a2a28f702c0ea582e8a63367e3fca350d9695ec47cc55c9fb1a9c5d1fd"
     }
   },
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-03-25T10:43:54.371Z"
-});
-
-Test.setProvider(provider);
-
-//没有默认地址，会报错
-//UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 3): Error: invalid address
-//务必设置为自己的钱包地址，如果不知道，查看自己的客户端启动时，观察打印到控制台的地址
-Test.defaults({
-  from : "0x83155b29b8eac18aea4fd3a27418b9cb2a9f246f"
-});
-
-console.log('233')
-console.log(provider.sendAsync, 'provider')
-console.log()
-// console.log(Test, 'Test')
-console.log(Test.deployed, 'deployed')
-var instance;
-Test.deployed().then(inst => { instance = inst }).catch(function(ins){console.log('ffffffffffff');console.log(ins)});
-// Test.deployed().then(function(contractInstance) {
-//   instance = contractInstance;
-//   console.log(contractInstance, 'contractInstance')
-//   // return instance.f.call();
-// }).then(function(result){
-//   console.log(result, 'result');
-//   // return instance.g.call();
-// }).then(function(result){
-//   console.log(result);
-// });
+  "updatedAt": "2018-03-25T12:02:17.121Z"
+}

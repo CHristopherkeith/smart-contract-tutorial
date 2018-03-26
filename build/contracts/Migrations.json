@@ -182,7 +182,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 68,
+                        "referencedDeclaration": 87,
                         "src": "147:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -285,7 +285,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 68,
+                        "referencedDeclaration": 87,
                         "src": "221:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -828,7 +828,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 68,
+                        "referencedDeclaration": 87,
                         "src": "147:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -931,7 +931,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 68,
+                        "referencedDeclaration": 87,
                         "src": "221:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -1367,19 +1367,13 @@
     "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
   },
   "networks": {
-    "1521965676705": {
+    "1522080497501": {
       "events": {},
       "links": {},
-      "address": "0x1081d28d23c7cbacc8061d0d5ad5b85fbea4834a",
+      "address": "0x024b521ea4db7401ba45670539c1180c5dcfa447",
       "transactionHash": "0x6a8154416bdb32d31aef466debc29326dedfd760b539580d143ca5702ad07939"
-    },
-    "1521965720004": {
-      "events": {},
-      "links": {},
-      "address": "0x8abe309e1903f667409f9aa9e6179c9f71d801f3",
-      "transactionHash": "0x5227b32dfcd9ff0f3ed16fe4b38cdd3baf14d618d4e946d9699b5fc82e191941"
     }
   },
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-03-25T12:02:17.124Z"
+  "updatedAt": "2018-03-26T16:15:33.820Z"
 }
